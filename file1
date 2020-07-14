@@ -1,0 +1,13 @@
+fn=input("Input the Filename:")
+f=fn.split(".")
+if f[-1]=='py':
+    print("The extension of the file is:'python'")
+elif f[-1]=='txt':
+    print("The extension of the file is:'text'")
+elif f[-1]=='pdf':
+    print("The extension of the file is:'portable document format'")
+elif f[-1]=='doc':
+    print("The extension of the file is:'document'")
+elif f[-1]=='xls':
+    print("The extension of the file is:'excel spreadsheet'")
+
